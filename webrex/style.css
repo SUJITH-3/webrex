@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    letter-spacing: 3px;
+}
+
+header a:hover {
+    color: aqua;
+}
+
+header h2 span a {
+    color: aqua;
+}
+
+header span {
+    color: aqua;
+}
+
+.ser {
+    padding: 15px;
+    align-items: center;
+}
+
+.ser input {
+    width: 200px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+input:hover {
+    border: 2px double aqua;
+}
+
+.ser button {
+    border: none;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.body {
+    display: flex;
+}
+
+.side {
+    background-color: black;
+    width: 25vw;
+    height: 90vh;
+}
+
+.logo img {
+    width: 100%;
+
+    border-radius: 50%;
+    height: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 3px solid aqua;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 40px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 5px;
+}
+
+.nav a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.left {
+    width: 75vw;
+    background-image: url(back.jpeg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    text-align: center;
+    padding-top: 20vh;
+
+}
+
+.left {
+    line-height: 15vh;
+}
+
+.left h2 {
+    font-size: 3em;
+}
+
+.left h1 {
+    background-color: black;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.left h1:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.kids h1 {
+    margin-bottom: 50px;
+}
+
+.kids {
+    padding: 25px;
+    text-align: center;
+}
+
+img:hover {
+    box-shadow: 0 0 5px 0 black;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#womens .image {
+    width: 300px;
+    height: 400px;
+}
+
+#mens .image {
+    width: 300px;
+    height: 400px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#location {
+    text-align: center;
+}
+
+.map {
+    width: 600px;
+    height: 400px;
+    margin: 50px auto 100px auto;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    margin-bottom: 100px;
+}
+
+.about iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.vid {
+    width: 300px;
+    height: 200px;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: black;
+    color: aqua;
+    height: 15vh;
+    padding: 20px;
+}
